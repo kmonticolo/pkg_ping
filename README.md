@@ -1,4 +1,4 @@
-[![builds.sr.ht status](https://builds.sr.ht/~sircmpwn/builds.sr.ht.svg)](https://builds.sr.ht/~sircmpwn/builds.sr.ht?)
+[![builds.sr.ht status](https://builds.sr.ht/~kmonticolo/builds.sr.ht.svg)](https://builds.sr.ht/~kmonticolo/builds.sr.ht?)
 
 It uses pledge and unveil for OpenBSD version 6.4 and later.
 
