@@ -1,0 +1,15 @@
+image: openbsd/latest 
+sources: 
+  - https://github.com/kmonticolo/pkg_ping
+tasks:
+  - setup: |
+      #ifconfig -a
+      #curl ifconfig.co
+      echo
+      cd pkg_ping
+      cc pkg_ping.c -o pkg_ping
+  - build: |
+      cd pkg_ping
+      ls -al pkg_ping
+      chmod +x pkg_ping
+      ./pkg_ping
