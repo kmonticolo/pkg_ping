@@ -1,3 +1,5 @@
+[![builds.sr.ht status](https://builds.sr.ht/~sircmpwn/builds.sr.ht.svg)](https://builds.sr.ht/~sircmpwn/builds.sr.ht?)
+
 It uses pledge and unveil for OpenBSD version 6.4 and later.
 
 It determines and prints the fastest OpenBSD mirror for your version and architecture for the /etc/installurl file and if run 
